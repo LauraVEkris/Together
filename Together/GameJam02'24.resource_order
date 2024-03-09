@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Backgrounds","order":19,"path":"folders/Backgrounds.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
@@ -25,7 +25,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"sHumanPush","order":5,"path":"sprites/sHumanPush/sHumanPush.yy",},
     {"name":"oWallMoveY","order":4,"path":"objects/oWallMoveY/oWallMoveY.yy",},
     {"name":"sLeverOn","order":5,"path":"sprites/sLeverOn/sLeverOn.yy",},
