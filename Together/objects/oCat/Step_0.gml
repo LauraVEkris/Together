@@ -32,7 +32,7 @@ y += yspd;
 
 //Moving platform collisions
 var moving_platform = instance_place(x, y + max(1, yspd), oWallMove);
-if (moving_platform and bbox_bottom <= moving_platform.bbox_top) {
+if (place_meeting(x,y,moving_platform)) {
 	if (yspd > 0) {
 		while (!place_meeting(x, y + sign(yspd), oWallMove)){
 			y += sign(yspd);
