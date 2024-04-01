@@ -37,6 +37,8 @@ if (moving_platform and bbox_bottom <= moving_platform.bbox_top) {
 		while (!place_meeting(x, y + sign(yspd), oWallMove)){
 			y += sign(yspd);
 		}
+		xspd = 0;
+		yspd = 0;
 	}
 	x += moving_platform.xspd;
 	y += moving_platform.yspd;

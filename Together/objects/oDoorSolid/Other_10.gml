@@ -1,6 +1,6 @@
 var can_unlock = true;
 
-for (var idx = 0; idx < array_length_1d(SwitchArray); idx++){
+for (var idx = 0; idx < array_length(SwitchArray); idx++){
 	var instance = SwitchArray[idx];
 	
 	if instance.has_to_be_enabled != instance.enabled {
