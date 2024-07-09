@@ -3,9 +3,9 @@ if (room != rEnd) && (room!= rEndScene){
 	if instance_number(oPage) == 0{
 		if instance_exists(oLectern){
 			with oLectern {
-				if place_meeting(x,y,oHuman) and place_meeting(x,y,oCat){
+				if (place_meeting(x,y,oHuman)) and (place_meeting(x,y,oCat)){
 				room_goto_next();	
-				}		
+				}
 			}
 		}
 		else{
