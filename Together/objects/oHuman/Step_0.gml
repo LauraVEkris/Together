@@ -83,11 +83,21 @@ if !place_meeting(x,y+1,global.Climb)
 	}
 }
 
+//Swimming
+if place_meeting(x, y, oWater) == true {
+	grv = 0.1;
+	move_spd = 1.5;
+	}
+	else {
+	grv = 0.3;
+	move_spd = 3;
+	}
+
 //Death and checkpoints
 if place_meeting(x, y, global.Death) == true {
 	if (global.checkpointRH == room) {
-	oHuman.x = global.checkpointxH;
-	oHuman.y = global.checkpointyH;
+		oHuman.x = global.checkpointxH;
+		oHuman.y = global.checkpointyH;
 	}
 	else {
 		oHuman.x = xstart;

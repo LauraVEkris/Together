@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDoor",
+  "%Name":"oECode",
   "eventList":[],
   "managed":true,
-  "name":"oDoor",
+  "name":"oECode",
   "overriddenProperties":[],
   "parent":{
-    "name":"Doors",
-    "path":"folders/Objects/Doors.yy",
+    "name":"Codes",
+    "path":"folders/Objects/Codes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -23,13 +23,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"name","filters":[],"listItems":[],"multiselect":false,"name":"name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default_door","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sECode",
+    "path":"sprites/sECode/sECode.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

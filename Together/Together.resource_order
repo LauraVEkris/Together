@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"oECode","order":1,"path":"objects/oECode/oECode.yy",},
+    {"name":"oWater","order":1,"path":"objects/oWater/oWater.yy",},
+    {"name":"rLvl5","order":1,"path":"rooms/rLvl5/rLvl5.yy",},
+    {"name":"sECode","order":1,"path":"sprites/sECode/sECode.yy",},
+    {"name":"sWater","order":1,"path":"sprites/sWater/sWater.yy",},
+  ],
+}
