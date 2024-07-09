@@ -2,8 +2,8 @@
   "$GMObject":"",
   "%Name":"oButton",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oHuman","path":"objects/oHuman/oHuman.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oCat","path":"objects/oCat/oCat.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oHuman","path":"objects/oHuman/oHuman.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oCat","path":"objects/oCat/oCat.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oButton",
